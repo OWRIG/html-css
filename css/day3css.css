@@ -1,0 +1,51 @@
+base{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 10 0;
+  font-family: 微软雅黑；cursive;
+}
+.zhengti{
+  width:640px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0 auto;
+  /* 左右居中 */
+}
+h1{
+  font-size: 20px;
+  font-weight: normal;
+  margin:10px 0 20px;
+  text-align: center;
+}
+
+p{
+  font-size: 15px;
+  margin: 1.5em 0;
+  line-height: 1.5em;
+}
+h1+p{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  color: #005fbd;
+  font-size: 12px;
+}
+.red{
+  color: red;
+}
+ul{
+  padding: 0;
+  list-style-type: none;
+  text-indent: 2em;
+  line-height: 2em;
+}
+a{
+  color: #666;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
